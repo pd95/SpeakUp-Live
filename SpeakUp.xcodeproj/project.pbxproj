@@ -16,6 +16,7 @@
 		17473D5C28E0B9BB0030006C /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17473D5B28E0B9BB0030006C /* Recorder.swift */; };
 		17473D5E28E0BECC0030006C /* NewRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17473D5D28E0BECC0030006C /* NewRecordingView.swift */; };
 		17473D6028E0C0F70030006C /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17473D5F28E0C0F70030006C /* PlaybackView.swift */; };
+		17F4BE4628E0E43800F58791 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 17F4BE4528E0E43800F58791 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		17473D5B28E0B9BB0030006C /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
 		17473D5D28E0BECC0030006C /* NewRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordingView.swift; sourceTree = "<group>"; };
 		17473D5F28E0C0F70030006C /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
+		17F4BE4528E0E43800F58791 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		17473D3B28E0B4DC0030006C = {
 			isa = PBXGroup;
 			children = (
+				17F4BE4528E0E43800F58791 /* README.md */,
 				17473D4628E0B4DC0030006C /* SpeakUp */,
 				17473D4528E0B4DC0030006C /* Products */,
 			);
@@ -132,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F4BE4628E0E43800F58791 /* README.md in Resources */,
 				17473D4C28E0B4DD0030006C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
