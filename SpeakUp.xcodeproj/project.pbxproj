@@ -10,7 +10,6 @@
 		17473D4828E0B4DC0030006C /* SpeakUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17473D4728E0B4DC0030006C /* SpeakUpApp.swift */; };
 		17473D4A28E0B4DC0030006C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17473D4928E0B4DC0030006C /* ContentView.swift */; };
 		17473D4C28E0B4DD0030006C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17473D4B28E0B4DD0030006C /* Assets.xcassets */; };
-		17473D4F28E0B4DD0030006C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17473D4E28E0B4DD0030006C /* Preview Assets.xcassets */; };
 		17473D5628E0B51C0030006C /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17473D5528E0B51C0030006C /* Recording.swift */; };
 		17473D5828E0B5CB0030006C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17473D5728E0B5CB0030006C /* DataController.swift */; };
 		17473D5A28E0B8C30030006C /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17473D5928E0B8C30030006C /* RecordingView.swift */; };
@@ -24,7 +23,6 @@
 		17473D4728E0B4DC0030006C /* SpeakUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakUpApp.swift; sourceTree = "<group>"; };
 		17473D4928E0B4DC0030006C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17473D4B28E0B4DD0030006C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		17473D4E28E0B4DD0030006C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17473D5528E0B51C0030006C /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		17473D5728E0B5CB0030006C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		17473D5928E0B8C30030006C /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
@@ -72,17 +70,8 @@
 				17473D5728E0B5CB0030006C /* DataController.swift */,
 				17473D5B28E0B9BB0030006C /* Recorder.swift */,
 				17473D4B28E0B4DD0030006C /* Assets.xcassets */,
-				17473D4D28E0B4DD0030006C /* Preview Content */,
 			);
 			path = SpeakUp;
-			sourceTree = "<group>";
-		};
-		17473D4D28E0B4DD0030006C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				17473D4E28E0B4DD0030006C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17473D4F28E0B4DD0030006C /* Preview Assets.xcassets in Resources */,
 				17473D4C28E0B4DD0030006C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +278,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpeakUp/Preview Content\"";
 				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -321,7 +308,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpeakUp/Preview Content\"";
 				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
